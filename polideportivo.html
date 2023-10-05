@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The sports game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<style>
+  body{ 
+    font-family: sans-serif;
+    background-color: blueviolet;
+  }
+  .contenedor{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  }
+  .CONT2 {
+    display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center; 
+  }
+</style>
+ </head>
+ <div class="contenedor">
+ <h1>ECO 3 + Lengua Extranjera Ingles</h1>
+ <h2>The 4to`s Sports Game </h2>
+
+ <body>
+<br>
+    <button  type="button" onclick="mostrarModal()" class="btn btn-info">Iniciar</button>
+<br>
+<div class="CONT2">
+<div class="modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Sports</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Deporte en equipo con pelota, de maximo 3 toques y pasar la pelota al otro lado.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-outline-primary">Football</button>
+          <button type="button" class="btn btn-outline-primary">Handball</button>
+          <button type="button" class="btn btn-outline-primary">Basquet</button>
+          <button type="button" class="btn btn-outline-primary">Voley</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">Deporte en equipo con pelota, de maximo 3 toques y pasar la pelota al otro lado.</p>
+              <div class="d-grid gap-2">
+                <button type="button" class="btn btn-outline-primary">Football</button>
+                <button type="button" class="btn btn-outline-primary">Handball</button>
+                <button type="button" class="btn btn-outline-primary">Basquet</button>
+                <button type="button" class="btn btn-outline-primary">Voley</button>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="modal.js"></script> 
+  </body>
+ </html>
