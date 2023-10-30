@@ -1,33 +1,33 @@
 const questions = [
     {
         question: "In which sport is played on a rectangular field with two teams of eleven players each?",
-        options: ["Soccer (correct)", "Basketball", "Volleyball"],
-        answer: "Soccer (correct)"
+        options: ["Soccer", "Basketball", "Volleyball"],
+        answer: "Soccer"
     },
     {
         question: "Which of the following sports is played with a round ball and can be scored with any part of the body: volleyball, soccer or basketball?",
-        options: ["Soccer (correct)", "Volleyball", "Basketball"],
-        answer: "Soccer (correct)"
+        options: ["Soccer", "Volleyball", "Basketball"],
+        answer: "Soccer"
     },
     {
         question: "In which sport is a hoop and a ball to be scored used: soccer, basketball or volleyball?",
-        options: ["Basketball (correct)", "Volleyball", "Soccer"],
-        answer: "Basketball (correct)"
+        options: ["Basketball", "Volleyball", "Soccer"],
+        answer: "Basketball"
     },
     {
         question: "In which sport is a long stick used to hit a ball and score goals: volleyball, field hockey or basketball?",
-        options: ["Field hockey (correct)", "Volleyball", "Basketball"],
-        answer: "Field hockey (correct)"
+        options: ["Field hockey", "Volleyball", "Basketball"],
+        answer: "Field hockey"
     },
     {
         question: "In which sport is played on a rectangular court divided by a net and a small ball is used to hit it with the hands: volleyball, handball or soccer?",
-        options: ["Handball (correct)", "Volleyball", "Soccer"],
-        answer: "Handball (correct)"
+        options: ["Handball", "Volleyball", "Soccer"],
+        answer: "Handball"
     },
     {
         question: "In which sport is played on a rectangular court with two teams of eleven players each and using a round ball?",
-        options: ["Soccer (correct)", "Basketball", "Volleyball"],
-        answer: "Soccer (correct)"
+        options: ["Soccer", "Basketball", "Volleyball"],
+        answer: "Soccer"
     }
 ];
 
