@@ -1,9 +1,9 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f2f2f2;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 .quiz-container {
@@ -47,4 +47,31 @@ h1 {
 
 #next-button:hover {
     background-color: #0077A3;
+}
+
+/* Fondo difuminado */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+    background: radial-gradient(circle, #ff0000, #00ff00, #0000ff);
+    background-size: 400% 400%;
+    animation: backgroundAnimate 5s linear infinite;
+}
+
+@keyframes backgroundAnimate {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
